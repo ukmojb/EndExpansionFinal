@@ -95,7 +95,6 @@ public class ModItems {
     //redone Amber Armor via Geckolib
 
     //public static final Item AMBER_REDONE_HELMET = new AmberArmorSet("amber_helmet", AMBER_ARMOR, 0, EntityEquipmentSlot.HEAD, "amber", "amber_desc");
-    public static final Item AMBER_RAW_ORE = new ItemBase("amber_raw", ModCreativeTabs.ITEMS);
     public static final ItemAxe AMBER_AXE = new ItemAmberAxe("amber_axe", AMBER_SET, ItemConfig.cordium_axe_damage + ModIntegration.getMultiplierCountAttackWeapons(), -2.8F);
     public static final Item PURE_AXE = new ItemPureAxe("pure_axe", PURE_AXE_MATERIAL, ItemConfig.pure_axe_damage + ModIntegration.getMultiplierCountAttackWeapons(), -2.4F, "pure_axe_desc");
     public static final Item UNHOLY_AXE = new ItemRedAxe("red_axe", RED_SWORD, ItemConfig.unholy_axe_damage + ModIntegration.getMultiplierCountAttackWeapons(), -3.0F, "red_axe_desc");
@@ -160,7 +159,6 @@ public class ModItems {
     public static Item MADNESS_EYE = new ItemMadnessEyeKey("madness_eye", ModCreativeTabs.ITEMS, "madness_eye_desc");
     public static Item SHADOW_TEAR = new ItemShadowTear("shadow_tear", ModCreativeTabs.ITEMS, "shadow_tear_desc", false);
     public static Item SHADOW_TEAR_TWO = new ItemShadowTear("shadow_tear_two", ModCreativeTabs.ITEMS, "shadow_tear_two_desc", true);
-    public static Item STAR_SHARD_RAW = new ItemBase("star_shard_raw", ModCreativeTabs.ITEMS);
     public static Item STAR_SHARD = new ItemDescription("star_shard", ModCreativeTabs.ITEMS, "star_shard_desc");
 
     public static final Item FAKE_HEALING_POTION = new ItemBase("fake_potion", null);

@@ -175,9 +175,6 @@ public class EntityController extends EntityModBase implements IAnimatable, IAtt
         } else if(stack.getItem() == Items.STICK) {
             this.equipBlock(CONTROLLER_HEAD.HEAD, ModBlocks.BARE_BARK);
             currentBlock = ModBlocks.BARE_BARK.getDefaultState();
-        } else if(stack.getItem() == ModItems.AMBER_RAW_ORE) {
-            this.equipBlock(CONTROLLER_HEAD.HEAD, ModBlocks.SPROUT_STONE);
-            currentBlock = ModBlocks.SPROUT_STONE.getDefaultState();
         } else if(stack.getItem() == Items.PORKCHOP) {
             this.equipBlock(CONTROLLER_HEAD.HEAD, Blocks.DIAMOND_BLOCK);
             currentBlock = Blocks.DIAMOND_BLOCK.getDefaultState();
