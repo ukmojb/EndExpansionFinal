@@ -112,7 +112,7 @@
         },
         {
           "type": "item",
-          "name": "endexpansion:amber_raw",
+          "name": "endexpansion:amber_ingot",
           "weight": 20,
           "functions": [
             {
